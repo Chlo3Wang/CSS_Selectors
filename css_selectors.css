@@ -1,0 +1,26 @@
+*{
+  font-family: sans-serif;
+}
+
+.parent1, .parent2{
+  border: 1vmin dashed red;
+}
+
+.child2 a:link {
+  text-decoration: none;
+}
+.child2 a:visited {
+  text-color: green;
+}
+
+.h + .h{
+  margin-top: 3vmin;
+}
+
+.child2  h2{
+  background-color: gold;
+}
+
+.child2 > p {
+  background-color: #FF0072;
+}
